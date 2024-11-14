@@ -1,17 +1,18 @@
 # Integrating-Graph-Neural-Networks-with-PageRank-for-Congestion-Analysis-Using-NYC-DOT-Traffic-Data
 
-## Project Overview
-This project presents an innovative approach to traffic congestion analysis in urban environments by enhancing the traditional PageRank algorithm with Graph Neural Networks (GNNs). The aim is to evaluate and rank road network intersections based on their importance and traffic congestion levels, providing data-driven insights for better urban traffic management.
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Objectives](#objectives)
 - [Dataset Description](#dataset-description)
-- [Methodology](#methodology)
+- [Data Preprocessing](#Data-Preprocessing)
+- [Integration of Graph Neural Networks](#Integration-of-Graph-Neural-Networks)
 - [Results and Visualizations](#results-and-visualizations)
 - [Conclusions](#conclusions)
 - [Requirements](#requirements)
 - [Installation](#installation)
+
+## Project Overview
+This project presents an innovative approach to traffic congestion analysis in urban environments by enhancing the traditional PageRank algorithm with Graph Neural Networks (GNNs). The aim is to evaluate and rank road network intersections based on their importance and traffic congestion levels, providing data-driven insights for better urban traffic management.
 
 ## Objectives
 The main objectives of this research are:
@@ -31,11 +32,11 @@ The dataset used in this research comes from the **New York City Department of T
 - The dataset provides crucial information for simulating traffic loads and integrating them with network graphs.
 
 ## Basic Methodology
-### 1. Data Preprocessing
+## Data Preprocessing
 - Loading and cleaning the dataset.
 - Converting `WktGeom` into `shapely` geometries for spatial operations.
 
-### 3. Integration of Graph Neural Networks
+## Integration of Graph Neural Networks
 - Using GNNs to learn node embeddings that incorporate both static topological features and dynamic traffic volume.
 - Modifying the PageRank algorithm to account for learned GNN node representations.
 
