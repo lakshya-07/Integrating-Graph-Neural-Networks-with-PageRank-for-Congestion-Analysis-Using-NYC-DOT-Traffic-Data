@@ -31,7 +31,6 @@ The dataset used in this research comes from the **New York City Department of T
   - `WktGeom`: Geometry data representing the road segment.
 - The dataset provides crucial information for simulating traffic loads and integrating them with network graphs.
 
-## Basic Methodology
 ## Data Preprocessing
 - Loading and cleaning the dataset.
 - Converting `WktGeom` into `shapely` geometries for spatial operations.
